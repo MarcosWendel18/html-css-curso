@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens em html 5 </title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>tente abrir esse site em diferentes dispositivos ou simplesmente aumente ou diminua o tamanho da página</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+    <h1>Reproduzindo audios</h1>
+    <p>Vamos aprender a reproduzir audios em html5</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/exercicios_modulo-01_ex011_midia_happy-mistake.mp3" type="audio/mpeg">
+    <!-- MP3 WAV OGG -->
+    </audio>
+</body>
+</html>
